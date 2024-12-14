@@ -19,10 +19,8 @@ form.addEventListener('submit', (e) => {
     if (lastName.value === '' || lastName.value == null) {
         e.preventDefault();
         lastName_error.innerHTML = "Last Name cannot be empty"
-        
     }
-
-
+    
     const emailReg = /^(?!.*\.\.)([a-zA-Z0-9._%+-]+)@([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/;
 
     if (!email.value.match(emailReg)) {
