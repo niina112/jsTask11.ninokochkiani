@@ -274,7 +274,7 @@ span {
 
     .main-box {
         width: 327px;
-        height: 500px;
+        height: 550px;
         border-radius: 10px;
         background: #FFF;
         box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
@@ -294,7 +294,6 @@ span {
         border-radius: 5px;
         background: #38CC8B;
         box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
-        pointer-events: none;
     }
 
     h6 {
@@ -317,4 +316,11 @@ span {
     }
 
 
+    #name-error,
+    #lastname-error,
+    #email-error,
+    #password-error{
+        font-size: 7px;
+        font-weight: 300px;
+    }
 }
