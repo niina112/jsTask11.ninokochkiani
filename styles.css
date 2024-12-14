@@ -110,7 +110,7 @@ p {
 
 .main-box {
     width: 540px;
-    height: 470px;
+    height: 550px;
     border-radius: 0.625rem;
     background: #FFF;
     box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
@@ -119,6 +119,12 @@ p {
     padding-top: 40px;
 }
 
+
+
+input:focus {
+    border-color: #5E54A4;
+    outline: none;
+}
 
 
 input {
@@ -184,7 +190,6 @@ span {
     font-size: 11px;
     font-style: italic;
     font-weight: 500;
-    display: none;
 }
 
 
@@ -293,7 +298,7 @@ span {
 
     .main-box {
         width: 327px;
-        height: 442px;
+        height: 500px;
         flex-shrink: 0;
         border-radius: 10px;
         background: #FFF;
@@ -328,6 +333,7 @@ span {
         font-style: normal;
         font-weight: 500;
         line-height: 21px;
+        padding-top: 15px;
     }
 
     span {
